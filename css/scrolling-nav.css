@@ -16,18 +16,29 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    	height: 130px;
+        background-color: #0086B9;
+        border: transparent;
+        -webkit-transition: background .5s ease-in-out,height .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,height .5s ease-in-out;
+        transition: background .5s ease-in-out,height .5s ease-in-out;
     }
 
     .top-nav-collapse {
         padding: 0;
+        height: 120px;
+        background-color: #FFF;
     }
 }
 
 /* Style jumbotron */
+.jumbotron {
+	background-image: url('../img/paper_boat.jpg');
+	background-color: #0086B9;
+	background-repeat: no-repeat;
+	margin-top:50px;
+}
+
 .jumbotron .container {
     margin-right: 0;
 }
