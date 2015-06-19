@@ -105,6 +105,13 @@ html {
     padding-bottom: 50px;
 }
 
+.services-section img {
+    text-align: center;
+    background: #fff;
+    padding-top: 50px;
+}
+
+
 .services-section h2{
 	color:#0E83CD;
 	font-size:20px;
