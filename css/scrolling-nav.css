@@ -18,13 +18,25 @@ html {
 @media(min-width:767px) {
     .navbar {
     	height: 100px;
-        background-color: #FFFFFF;
+        background-color: transparent;
         border: transparent;
         -webkit-transition: background .5s ease-in-out,height .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,height .5s ease-in-out;
         transition: background .5s ease-in-out,height .5s ease-in-out;
     }
-
+    
+    .navbar-default .navbar-nav>li>a {
+    	color:#202020;
+    }
+    
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    	color : #04caff;
+    }
+    
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    	color : #04CAFF;	
+    }
+    
     .top-nav-collapse {
         padding: 0;
         height: 90px;
@@ -32,7 +44,7 @@ html {
     }
     
     .top-nav-collapse .logo {
-        width:60%;
+        width:5%;
         height:auto;
     }
 }
@@ -41,31 +53,37 @@ html {
     	-moz-transition: 0.7s all ease, height .5s ease-in-out;
         -webkit-transition: 0.7s all ease, height .5s ease-in-out;
 		transition: 0.7s all ease, height .5s ease-in-out;
-		width:80%;
+		width:60px;
 		height:auto;
+    }
+    
+    .navbar-nav {
+    	float: right;
     }
 
 /* Style jumbotron */
 .jumbotron {
-	background-image: url('../img/paper_boat.jpg');
+	background-image: url('../img/background.jpg');
 	background-color: #0086B9;
 	background-repeat: no-repeat;
 	padding-top:100px;
 	margin-top : 0px;
-	color : #FFFFFF;
+	color : #202020;
+	height:100%;
 }
 
 .jumbotron .container {
-    margin-right: 0;
+	margin-top : 100px;
 }
 
 .jumbotron .container p, a{
-    text-align: left;
+    text-align: center;
     font-size: 20px;
 }
 
 .intro-section {
-    padding-top: 50px;
+	height:100%;
+    padding-top: 0px;
     text-align: center;
 }
 
