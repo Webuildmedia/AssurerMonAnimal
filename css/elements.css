@@ -46,7 +46,7 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background-color: #fff;
+	background-color: transparent;
 }
 
 nav a {
@@ -60,7 +60,7 @@ nav a {
 	letter-spacing: 1px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1.35em;
+	font-size: 18px;
 }
 
 nav a:hover,
@@ -96,4 +96,18 @@ nav a:focus {
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
+}
+
+/* Adding social media badges as font */
+@font-face {
+    font-family: "social_badges";
+    src: url('../fonts/social_shapes.ttf') format("truetype");
+}
+.social { 
+    display: inline-block;
+    font-family: "social_badges";
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
 }

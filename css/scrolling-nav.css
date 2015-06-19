@@ -61,6 +61,7 @@ html {
 
 .jumbotron .container p, a{
     text-align: left;
+    font-size: 20px;
 }
 
 .intro-section {
@@ -69,20 +70,33 @@ html {
 }
 
 .about-section {
-    padding-top: 150px;
     text-align: center;
+}
+
+.about-section h1{
+	margin-bottom: 30px;
+}
+
+.about-section p{
+	font-size: 20px;
 }
 
 .services-section {
-    padding-top: 150px;
     text-align: center;
     background: #fff;
+    padding-bottom: 50px;
+}
+
+.services-section h2{
+	color:#0E83CD;
+	font-size:20px;
 }
 
 .contact-section {
-    padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #202020;
+    color:#FFFFFF;
+    padding-bottom: 50px;
 }
 
 /* IFrame Styling */
